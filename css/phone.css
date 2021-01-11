@@ -1,0 +1,115 @@
+body{
+  
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display:none;
+}
+.middle{
+    display:none;
+}
+.left{
+
+}
+#logo-img img{
+    width:50px;
+    height:50px;
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+}
+
+.article{
+    display:flex;
+    flex-direction: column;
+    overflow:hidden;
+}
+
+.more-inside{
+    text-align: center;
+    border: 1px solid green;
+    width: 280px;
+    background-color: black;
+    color: white;
+    font-size: 1.rem;
+    
+}
+.more-inside h2{
+    font-size:1rem;
+}
+
+.gallery{
+    overflow:scroll;
+   
+    
+}
+.award-logo img{
+    width: 50px;
+    margin-top: 52px;
+    margin-bottom: 35px;
+}
+.award-desp h1{
+    color:white;
+    padding:10px;
+    text-align: center;
+    font-size:1rem;
+
+}
+.award-a {
+    border: 1px solid black;
+    padding: 0px;
+    margin-top: 13px;
+    margin-left: 17px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 10px;
+}
+.award-a a{
+    
+    font-size:0.5rem;
+}
+.picture{
+    display:flex;
+    
+}
+.pic img{
+    max-width: 100%;
+    height: auto;
+}   
+
+.footer{
+    
+    margin-top:40px;
+    background-color:rgb(240, 175, 186);
+    overflow:scroll;
+    height:auto;
+}
+.footer-left {
+    display: inline-block;
+    margin-left: 10px;
+}
+.footer-inside {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-about p {
+    margin: 5px;
+    font-size: 0.5rem;
+}
+.f-b-upper img {
+    width: 31px;
+    height: 28px;
+}
+.footer-copyright {
+    padding: 3px;
+}
+.footer-a a{
+    font-size:0.5rem;
+}
